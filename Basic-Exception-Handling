@@ -1,0 +1,9 @@
+numerator = input("Enter first number: ")
+divisor = input("Enter second number: ")
+try:
+    numerator = float(numerator)
+    divisor = float(divisor)
+    result = numerator / divisor
+    print("The result is", result)
+except ZeroDivisionError:
+    print("Error: Division by zero is not allowed.")
